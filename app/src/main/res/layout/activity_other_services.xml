@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtherServicesActivity">
+
+    <Button
+        android:id="@+id/btnMobile"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/shape"
+        android:text="Insurance"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnEWallets"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnMobile"
+        android:layout_marginTop="125dp"
+        android:background="@drawable/shape"
+        android:text="E-Wallets"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnTaxi"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnMobile"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/shape"
+        android:text="Taxi"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnOtherServices"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnMobile"
+        android:layout_marginBottom="197dp"
+        android:background="@drawable/shape"
+        android:text="Other Services"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

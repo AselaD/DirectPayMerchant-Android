@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="159dp"
+        android:layout_height="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+         />
+
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="201dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="233dp"
+        android:text="Account Number" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="201dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtNumber"
+        android:layout_marginBottom="139dp"
+        android:text="Amount" />
+
+    <EditText
+        android:id="@+id/txtAmount"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtNumber"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="-139dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shape"
+        android:text="Submit"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtNumber"
+        android:layout_below="@+id/txtNumber"
+        android:maxLength="10"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</RelativeLayout>

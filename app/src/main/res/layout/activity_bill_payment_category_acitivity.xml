@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lineaLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginVertical="10dp"
+    android:layout_gravity="fill_vertical"
+    tools:context=".BillPaymentCategoryAcitivity"
+    android:orientation="vertical">
+
+<!--    <Button
+        android:id="@+id/btnMobile"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnTelephone"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnMobile"
+        android:layout_marginTop="125dp"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnInternet"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnMobile"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnUtility"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnMobile"
+        android:layout_marginBottom="197dp"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnTelevision"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnMobile"
+        android:layout_marginBottom="126dp"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnOtherServices"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnMobile"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />-->
+</LinearLayout>
